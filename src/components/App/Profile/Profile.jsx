@@ -7,6 +7,7 @@ export default function Profile ({username, tag, location, avatar, stats}) {
       <img className={css.avatar}
         src={avatar}
         alt="User avatar"
+        width="160"
       />
       <p className={css.username}>{username}</p>
       <p className={css.tag}>{tag}</p>
